@@ -30,9 +30,22 @@ Example business questions:
 
 ## Portfolio Flow
 
-<p align="center">
-  <img src="./assets/portfolio-layer-flow.svg" alt="Portfolio layer flow for Australian mortgage loan risk analytics" width="100%">
-</p>
+## Portfolio Flow
+
+```mermaid
+flowchart LR
+    A["Business Problem<br/>Define loan risk and banking decisions"]
+    B["Data Sources<br/>Kaggle borrower data + Australian market data"]
+    C["Data Cleaning<br/>Missing values, duplicates, outliers, messy categories"]
+    D["SQL Analysis<br/>Data checks, joins, risk segments, funnel queries"]
+    E["Python EDA<br/>Default patterns, borrower stress, affordability"]
+    F["Funnel Analysis<br/>Application, data quality, and model decision flow"]
+    G["Feature Engineering<br/>Debt burden, income stability, repayment pressure"]
+    H["Machine Learning<br/>Default-risk classification models"]
+    I["Explainability<br/>Risk drivers explained in business language"]
+    J["Tableau Dashboard<br/>Executive visuals and banking recommendations"]
+
+    A --> B --> C --> D --> E --> F --> G --> H --> I --> J
 
 ## Project Layers
 
