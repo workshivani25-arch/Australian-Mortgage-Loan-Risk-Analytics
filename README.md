@@ -30,8 +30,6 @@ Example business questions:
 
 ## Portfolio Flow
 
-## Portfolio Flow
-
 ```mermaid
 flowchart LR
     A["Business Problem<br/>Define loan risk and banking decisions"]
